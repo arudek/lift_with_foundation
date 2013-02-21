@@ -56,7 +56,7 @@ class Boot {
     JQueryModule.init()
 
 
-    /**** user experience settings ****/
+    /**** user experience settings  ****/
     // set the time that notices should be displayed and then fadeout
     LiftRules.noticesAutoFadeOut.default.set((notices: NoticeType.Value) => {
       notices match {
