@@ -1,15 +1,132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head><meta content="text/html; charset=UTF-8" http-equiv="content-type" /><title>Home</title></head>
-  <body class="lift:content_id=main">
-    <div id="main" class="lift:surround?with=default;at=content">
-      <h2>Welcome to your project!</h2>
-      <p>
-	<span class="lift:helloWorld.howdy">
-	  Welcome to your Lift app at <span id="time">Time goes here</span>
-	</span>
-      </p>
-    </div>
-  </body>
-</html>
+<div class="lift:surround?with=base;at=content">
 
+    <div class="row">
+        <div class="twelve columns">
+            <h2>Fehler</h2>
+<!--
+            <div id="messages">
+                <lift:Msgs showAll="true">
+                    <lift:error_class>errorBox</lift:error_class>
+                    <lift:notice_class>noticeBox</lift:notice_class>
+                    <lift:warning_class>warningBox</lift:warning_class>
+                </lift:Msgs>
+            </div>
+-->
+            <hr />
+        </div>
+    </div>
+
+    <div calss="row">
+        <div class="tweelve columns">
+        <h2>Tets mit neuen Containern...</h2>
+        <div class="alert-box">
+            This is a standard alert (div.alert-box).
+            <a href="" class="close">&times;</a>
+        </div>
+        <div class = "lift:msgs">
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="five columns">
+            <p>Test mit einem Snippet:</p>
+        </div>
+        <div class="seven columns lift:STest.machwas">Hier</div>
+    </div>
+    <div class="row">
+        <div class="five columns">
+            <div class="lift:STest.button"></div>
+        </div>
+        <div class="seven columns">
+            <span>Ergebnis:</span>
+            <span id="result"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eight columns">
+            <h3>The Grid</h3>
+
+            <!-- Grid Example -->
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="panel">
+                        <p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <div class="panel">
+                        <p>Six columns</p>
+                    </div>
+                </div>
+                <div class="six columns">
+                    <div class="panel">
+                        <p>Six columns</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="panel">
+                        <p>Four columns</p>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="panel">
+                        <p>Four columns</p>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="panel">
+                        <p>Four columns</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Tabs</h3>
+            <dl class="tabs">
+                <dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
+                <dd><a href="#simple2">Simple Tab 2</a></dd>
+                <dd><a href="#simple3">Simple Tab 3</a></dd>
+            </dl>
+
+            <ul class="tabs-content">
+                <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
+                <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
+                <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+            </ul>
+
+            <h3>Buttons</h3>
+
+            <div class="row">
+                <div class="six columns">
+                    <p><a href="#" class="small button">Small Button</a></p>
+                    <p><a href="#" class="button">Medium Button</a></p>
+                    <p><a href="#" class="large button">Large Button</a></p>
+                </div>
+                <div class="six columns">
+                    <p><a href="#" class="small alert button">Small Alert Button</a></p>
+                    <p><a href="#" class="success button">Medium Success Button</a></p>
+                    <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="four columns">
+            <h4>Getting Started</h4>
+            <p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+
+            <h4>Other Resources</h4>
+            <p>Once you've exhausted the fun in this document, you should check out:</p>
+            <ul class="disc">
+                <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
+                <li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
+                <li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
