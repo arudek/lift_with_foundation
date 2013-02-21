@@ -1,0 +1,8 @@
+target
+lib_managed
+*.db
+project/boot/other
+project/boot/scala-*
+project/build/target
+project/boot/update.log
+project/boot/*.lock
